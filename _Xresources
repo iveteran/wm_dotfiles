@@ -1,0 +1,14 @@
+#include ".Xresources.d/uxtermrc"
+
+! #include ".Xresources.d/fonts"
+! #include ".Xresources.d/rxvt-unicode"
+! #include ".Xresources.d/xscreensaver"
+! #include ".Xresources.d/xterm"
+
+! NOTE: To run below command to make changes effect
+! xrdb -merge ~/.Xresources
+!
+! Query:
+! xrdb -query -all
+!
+! Refer: https://wiki.archlinux.org/title/x_resources
