@@ -1,7 +1,12 @@
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 # MPD daemon start (if no other user instance exists)
-[ ! -s ~/.mpd/pid ] && mpd
+#[ ! -s ~/.mpd/pid ] && mpd
+
+# Enables energy star featurs
+set +dpms
+# Enables screen saver
+set s on
 
 export http_proxy="http://127.0.0.1:7890"
 export https_proxy="http://127.0.0.1:7890"
