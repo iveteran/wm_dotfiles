@@ -19,6 +19,16 @@ alt + @space
 alt + Escape
   pkill -USR1 -x sxhkd
 
+# lock screen
+#alt + shift + Escape
+  #i3lock -i ~/.config/bspwm/wallpaper_2.png
+alt + shift + l
+  /usr/bin/i3lock-fancy -f Hack-Regular
+
+# Screenshot, the image will be saved to $HOME or $HOME/Pictures default
+alt + shift + s
+  /usr/bin/scrot
+
 #
 # bspwm hotkeys
 #
