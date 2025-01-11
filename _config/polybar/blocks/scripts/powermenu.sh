@@ -59,7 +59,8 @@ case $chosen in
         ;;
     $lock)
 		if [[ -f /usr/bin/i3lock ]]; then
-			i3lock -i ~/.config/bspwm/wallpaper_2.png
+			#i3lock -i ~/.config/bspwm/wallpaper_2.png
+			i3lock-fancy -f Hack-Regular
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi
