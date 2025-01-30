@@ -1,4 +1,4 @@
-#include ".Xresources.d/uxtermrc"
+#include ".Xresources.d/xtermrc"
 
 ! #include ".Xresources.d/fonts"
 ! #include ".Xresources.d/rxvt-unicode"
